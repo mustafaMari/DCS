@@ -1,0 +1,25 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_outer_classname = "GrpcAppProto";
+option objc_class_prefix = "GAP";
+
+service GrpcService{
+  rpc grpcProcedure (GrpcRequest) returns (GrpcResponse){}
+  rpc grpcFibo(GrpcRequestFibo) returns (stream GrpcResponseFibo){}
+}
+message GrpcRequest{
+  int32 id = 1;
+  string name = 2;
+  double height = 3;
+  string sex = 4;
+
+}
+message  GrpcResponse{
+  string message = 1;
+}
+message GrpcRequestFibo{
+  int32 n = 1;
+}
+message  GrpcResponseFibo{
+  int32 result = 1;
+}
