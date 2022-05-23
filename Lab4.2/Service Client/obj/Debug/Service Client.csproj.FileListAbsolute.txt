@@ -1,0 +1,11 @@
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Client\bin\Debug\Service Client.exe.config
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Client\bin\Debug\Service Client.exe
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Client\bin\Debug\Service Client.pdb
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Client\obj\Debug\Service Client.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Client\obj\Debug\Service Client.exe
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Client\obj\Debug\Service Client.pdb
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Client\obj\Debug\Service Client.csproj.AssemblyReference.cache
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Client\bin\Debug\Service Contract.dll
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Client\bin\Debug\Service Contract.pdb
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Client\bin\Debug\Service Contract.dll.config
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Client\obj\Debug\Service Client.csproj.CopyComplete

@@ -13,6 +13,26 @@ public final class GrpcAppProto {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_DataChunk_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_DataChunk_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_DownloadFileRequest_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_DownloadFileRequest_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_ReadInfoResponse_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_ReadInfoResponse_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_ReadInfoRequest_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_ReadInfoRequest_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GrpcRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
@@ -32,6 +52,16 @@ public final class GrpcAppProto {
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GrpcResponseFibo_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_SumRequest_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_SumRequest_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_SumResponse_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_SumResponse_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -41,43 +71,88 @@ public final class GrpcAppProto {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023GrpcInterface.proto\"D\n\013GrpcRequest\022\n\n\002" +
-      "id\030\001 \001(\005\022\014\n\004name\030\002 \001(\t\022\016\n\006height\030\003 \001(\001\022\013" +
-      "\n\003sex\030\004 \001(\t\"\037\n\014GrpcResponse\022\017\n\007message\030\001" +
-      " \001(\t\"\034\n\017GrpcRequestFibo\022\t\n\001n\030\001 \001(\005\"\"\n\020Gr" +
-      "pcResponseFibo\022\016\n\006result\030\001 \001(\0052r\n\013GrpcSe" +
-      "rvice\022.\n\rgrpcProcedure\022\014.GrpcRequest\032\r.G" +
-      "rpcResponse\"\000\0223\n\010grpcFibo\022\020.GrpcRequestF" +
-      "ibo\032\021.GrpcResponseFibo\"\0000\001B\026B\014GrpcAppPro" +
-      "toP\001\242\002\003GAPb\006proto3"
+      "\n\023GrpcInterface.proto\"\'\n\tDataChunk\022\014\n\004da" +
+      "ta\030\001 \001(\014\022\014\n\004size\030\002 \001(\005\"\'\n\023DownloadFileRe" +
+      "quest\022\020\n\010fileName\030\001 \001(\t\"#\n\020ReadInfoRespo" +
+      "nse\022\017\n\007message\030\001 \001(\t\"\035\n\017ReadInfoRequest\022" +
+      "\n\n\002id\030\001 \001(\005\"D\n\013GrpcRequest\022\n\n\002id\030\001 \001(\005\022\014" +
+      "\n\004name\030\002 \001(\t\022\016\n\006height\030\003 \001(\001\022\013\n\003sex\030\004 \001(" +
+      "\t\"\037\n\014GrpcResponse\022\017\n\007message\030\001 \001(\t\"\034\n\017Gr" +
+      "pcRequestFibo\022\t\n\001n\030\001 \001(\005\"\"\n\020GrpcResponse" +
+      "Fibo\022\016\n\006result\030\001 \001(\005\"\030\n\nSumRequest\022\n\n\002no" +
+      "\030\001 \001(\005\"\035\n\013SumResponse\022\016\n\006result\030\001 \001(\0052\216\002" +
+      "\n\013GrpcService\022.\n\rgrpcStoreData\022\014.GrpcReq" +
+      "uest\032\r.GrpcResponse\"\000\0223\n\010grpcFibo\022\020.Grpc" +
+      "RequestFibo\032\021.GrpcResponseFibo\"\0000\001\0227\n\017gr" +
+      "pcDownloadPic\022\024.DownloadFileRequest\032\n.Da" +
+      "taChunk\"\0000\001\0227\n\014grpcReadInfo\022\020.ReadInfoRe" +
+      "quest\032\021.ReadInfoResponse\"\0000\001\022(\n\007grpcSum\022" +
+      "\013.SumRequest\032\014.SumResponse\"\000(\001B\026B\014GrpcAp" +
+      "pProtoP\001\242\002\003GAPb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_GrpcRequest_descriptor =
+    internal_static_DataChunk_descriptor =
       getDescriptor().getMessageTypes().get(0);
+    internal_static_DataChunk_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_DataChunk_descriptor,
+        new java.lang.String[] { "Data", "Size", });
+    internal_static_DownloadFileRequest_descriptor =
+      getDescriptor().getMessageTypes().get(1);
+    internal_static_DownloadFileRequest_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_DownloadFileRequest_descriptor,
+        new java.lang.String[] { "FileName", });
+    internal_static_ReadInfoResponse_descriptor =
+      getDescriptor().getMessageTypes().get(2);
+    internal_static_ReadInfoResponse_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_ReadInfoResponse_descriptor,
+        new java.lang.String[] { "Message", });
+    internal_static_ReadInfoRequest_descriptor =
+      getDescriptor().getMessageTypes().get(3);
+    internal_static_ReadInfoRequest_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_ReadInfoRequest_descriptor,
+        new java.lang.String[] { "Id", });
+    internal_static_GrpcRequest_descriptor =
+      getDescriptor().getMessageTypes().get(4);
     internal_static_GrpcRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GrpcRequest_descriptor,
         new java.lang.String[] { "Id", "Name", "Height", "Sex", });
     internal_static_GrpcResponse_descriptor =
-      getDescriptor().getMessageTypes().get(1);
+      getDescriptor().getMessageTypes().get(5);
     internal_static_GrpcResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GrpcResponse_descriptor,
         new java.lang.String[] { "Message", });
     internal_static_GrpcRequestFibo_descriptor =
-      getDescriptor().getMessageTypes().get(2);
+      getDescriptor().getMessageTypes().get(6);
     internal_static_GrpcRequestFibo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GrpcRequestFibo_descriptor,
         new java.lang.String[] { "N", });
     internal_static_GrpcResponseFibo_descriptor =
-      getDescriptor().getMessageTypes().get(3);
+      getDescriptor().getMessageTypes().get(7);
     internal_static_GrpcResponseFibo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GrpcResponseFibo_descriptor,
+        new java.lang.String[] { "Result", });
+    internal_static_SumRequest_descriptor =
+      getDescriptor().getMessageTypes().get(8);
+    internal_static_SumRequest_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_SumRequest_descriptor,
+        new java.lang.String[] { "No", });
+    internal_static_SumResponse_descriptor =
+      getDescriptor().getMessageTypes().get(9);
+    internal_static_SumResponse_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_SumResponse_descriptor,
         new java.lang.String[] { "Result", });
   }
 

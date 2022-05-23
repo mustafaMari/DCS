@@ -1,0 +1,6 @@
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\Lab4\bin\Debug\Lab4.dll.config
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\Lab4\bin\Debug\Lab4.dll
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\Lab4\bin\Debug\Lab4.pdb
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\Lab4\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\Lab4\obj\Debug\Lab4.dll
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\Lab4\obj\Debug\Lab4.pdb

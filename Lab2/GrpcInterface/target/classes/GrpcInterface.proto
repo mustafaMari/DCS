@@ -4,9 +4,30 @@ option java_outer_classname = "GrpcAppProto";
 option objc_class_prefix = "GAP";
 
 service GrpcService{
-  rpc grpcProcedure (GrpcRequest) returns (GrpcResponse){}
+  rpc grpcStoreData (GrpcRequest) returns (GrpcResponse){}
   rpc grpcFibo(GrpcRequestFibo) returns (stream GrpcResponseFibo){}
+  rpc grpcDownloadPic(DownloadFileRequest) returns (stream DataChunk){}
+  rpc grpcReadInfo(ReadInfoRequest) returns (stream ReadInfoResponse){}
+  rpc grpcSum(stream SumRequest) returns (SumResponse){}
 }
+message DataChunk {
+  bytes data = 1;
+  int32 size = 2;
+}
+
+message DownloadFileRequest {
+  string fileName = 1;
+}
+
+message ReadInfoResponse{
+
+  string message = 1;
+
+}
+message  ReadInfoRequest{
+  int32 id = 1;
+}
+
 message GrpcRequest{
   int32 id = 1;
   string name = 2;
@@ -21,5 +42,11 @@ message GrpcRequestFibo{
   int32 n = 1;
 }
 message  GrpcResponseFibo{
+  int32 result = 1;
+}
+message SumRequest{
+  int32 no = 1;
+}
+message SumResponse{
   int32 result = 1;
 }

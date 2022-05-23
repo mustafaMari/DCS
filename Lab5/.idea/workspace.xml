@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97906a3a-bd11-463b-8197-fc3815b8ba9b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/java/DataChunk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/java/DataChunkOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/java/DownloadFileRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/java/DownloadFileRequestOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/java/ReadInfoRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/java/ReadInfoRequestOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/java/ReadInfoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/java/ReadInfoResponseOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/java/SumRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/java/SumRequestOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/java/SumResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/java/SumResponseOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/AddEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/AddEmployeeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/CountEmployees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/CountEmployeesResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/DeleteEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/DeleteEmployeeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/EmployeeAlreadyExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/EmployeeAlreadyExists_Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/EmployeeNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/EmployeeNotFound_Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/EmployeeService_Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/GetAllEmployees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/GetAllEmployeesResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/GetEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/GetEmployeeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/PSClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/UpdateEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/UpdateEmployeeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/EmployeeAlreadyExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/EmployeeNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/EmployeeRepoImple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/ServiceHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/personservice.wsdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcClient/src/main/java/GrpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcClient/src/main/java/GrpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcClient/target/classes/GrpcClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcClient/target/classes/GrpcClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcClient/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcClient/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/src/main/proto/GrpcInterface.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/src/main/proto/GrpcInterface.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcAppProto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcAppProto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcInterface.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcInterface.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceBaseDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceBaseDescriptorSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceBlockingStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceBlockingStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceFileDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceFileDescriptorSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceFutureStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceFutureStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceImplBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceImplBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceMethodDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceMethodDescriptorSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$MethodHandlers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc$MethodHandlers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/classes/GrpcServiceGrpc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/grpc-java/GrpcServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/grpc-java/GrpcServiceGrpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/java/GrpcAppProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/generated-sources/protobuf/java/GrpcAppProto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcInterface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcServer/src/main/java/GrpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcServer/src/main/java/GrpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcServer/target/classes/GrpcServer$GrpcServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcServer/target/classes/GrpcServer$GrpcServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcServer/target/classes/GrpcServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcServer/target/classes/GrpcServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/GrpcServer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/GrpcServer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="28n0AQPX0hj4nHXrADr1cumGp38" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.PSClient">
+    <configuration name="PSClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.PSClient" />
+      <module name="Lab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceHost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server.ServiceHost" />
+      <module name="Lab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PSClient" />
+        <item itemvalue="Application.ServiceHost" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97906a3a-bd11-463b-8197-fc3815b8ba9b" name="Changes" comment="" />
+      <created>1651836904590</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651836904590</updated>
+      <workItem from="1651836906504" duration="5084000" />
+      <workItem from="1652441016145" duration="4426000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

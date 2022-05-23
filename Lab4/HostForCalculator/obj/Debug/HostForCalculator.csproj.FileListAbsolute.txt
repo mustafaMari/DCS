@@ -1,0 +1,11 @@
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\HostForCalculator\bin\Debug\HostForCalculator.exe.config
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\HostForCalculator\bin\Debug\HostForCalculator.exe
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\HostForCalculator\bin\Debug\HostForCalculator.pdb
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\HostForCalculator\bin\Debug\Lab4.dll
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\HostForCalculator\bin\Debug\Lab4.pdb
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\HostForCalculator\bin\Debug\Lab4.dll.config
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\HostForCalculator\obj\Debug\HostForCalculator.csproj.AssemblyReference.cache
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\HostForCalculator\obj\Debug\HostForCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\HostForCalculator\obj\Debug\HostForCalculator.csproj.CopyComplete
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\HostForCalculator\obj\Debug\HostForCalculator.exe
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4\HostForCalculator\obj\Debug\HostForCalculator.pdb

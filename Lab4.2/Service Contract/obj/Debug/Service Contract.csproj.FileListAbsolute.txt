@@ -1,0 +1,7 @@
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Contract\bin\Debug\Service Contract.dll.config
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Contract\bin\Debug\Service Contract.dll
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Contract\bin\Debug\Service Contract.pdb
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Contract\obj\Debug\Service Contract.csproj.AssemblyReference.cache
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Contract\obj\Debug\Service Contract.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Contract\obj\Debug\Service Contract.dll
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Lab4.2\Service Contract\obj\Debug\Service Contract.pdb

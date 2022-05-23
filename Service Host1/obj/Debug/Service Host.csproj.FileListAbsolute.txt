@@ -1,0 +1,11 @@
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Service Host1\obj\Debug\Service Host.csproj.AssemblyReference.cache
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Service Host1\obj\Debug\Service Host.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Service Host1\bin\Debug\Service Host1.exe.config
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Service Host1\bin\Debug\Service Host1.exe
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Service Host1\bin\Debug\Service Host1.pdb
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Service Host1\bin\Debug\Service Contract.dll
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Service Host1\bin\Debug\Service Contract.pdb
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Service Host1\bin\Debug\Service Contract.dll.config
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Service Host1\obj\Debug\Service Host.csproj.CopyComplete
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Service Host1\obj\Debug\Service Host1.exe
+C:\Users\Mustafa\OneDrive\Documents\GitHub\DCS\Service Host1\obj\Debug\Service Host1.pdb
